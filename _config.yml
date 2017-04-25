@@ -1,0 +1,23 @@
+# Site
+title: InterAfetivos
+subtitle: Vamos construir uma cidade de afetos
+
+# URL
+url: http://www.interafetivos.info
+baseurl: /
+permalink: :title/
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+port: 4448
+future: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
